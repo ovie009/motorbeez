@@ -1,0 +1,206 @@
+2019-11-12 19:40:25 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Social Login
+
+FILE: catalog/view/theme/default/template/classified/login.tpl
+CODE: <input type="submit" value="<?php echo $button_login; ?>" class="btn btn-primary" />
+LINE: 69
+CODE: </form>
+LINE: 78
+CODE: <?php echo $footer; ?>
+LINE: 99
+
+FILE: catalog/controller/classified/login.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 135
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <table id="module-column-right" class="table table-striped table-bordered table-hover">
+LINE: 351
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 479
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 491
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 11
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 264
+
+FILE: catalog/controller/classified/register.php
+CODE: $data['column_left'] = $this->load->controller('common/column_left');
+LINE: 235
+----------------------------------------------------------------
+2019-11-12 19:47:46 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Social Login
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <table id="module-column-right" class="table table-striped table-bordered table-hover">
+LINE: 351
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 479
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 491
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 11
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 264
+----------------------------------------------------------------
+2019-11-12 20:14:01 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
+MOD: TMD Social Login
+
+FILE: admin/view/template/design/layout_form.tpl
+CODE: <table id="module-column-right" class="table table-striped table-bordered table-hover">
+LINE: 351
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').delegate('select[name*=\'code\']', 'change', function() {
+LINE: 479
+CODE: $('#module-column-left, #module-column-right, #module-content-top, #module-content-bottom').trigger('change');
+LINE: 491
+
+FILE: admin/language/en-gb/design/layout.php
+CODE: // Text
+LINE: 11
+
+FILE: admin/controller/design/layout.php
+CODE: protected function getForm() {
+LINE: 264
+----------------------------------------------------------------
+2019-11-13 1:31:21 - MOD: Modification Default
+
+FILE: system/engine/action.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 41
+
+FILE: system/engine/loader.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 49
+LINE: 108
+LINE: 120
+LINE: 165
+
+FILE: system/library/config.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 23
+
+FILE: system/library/language.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 38
+LINE: 40
+LINE: 49
+LINE: 51
+LINE: 60
+LINE: 62
+
+FILE: system/library/template/php.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 18
+
+FILE: system/library/template/tiwg.php
+REGEX: ~(require|include)(_once)?\(([^)]+)~
+LINE: 24
+----------------------------------------------------------------
